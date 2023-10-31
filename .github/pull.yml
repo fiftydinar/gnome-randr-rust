@@ -1,0 +1,11 @@
+version: "1"
+rules:
+  - base: main
+    upstream: maxwellainatchi:main
+    mergeMethod: merge
+    assignees:
+      - fiftydinar
+    reviewers:
+      - fiftydinar
+    conflictReviewers:
+      - fiftydinar
